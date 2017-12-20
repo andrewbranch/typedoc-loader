@@ -1,0 +1,150 @@
+{
+	"id": 0,
+	"name": "marked-lexer-loader",
+	"kind": 0,
+	"flags": {},
+	"children": [
+		{
+			"id": 1,
+			"name": "Animal",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"comment": {
+				"shortText": "Neither a vegetable nor a mineral"
+			},
+			"children": [
+				{
+					"id": 6,
+					"name": "birthday",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true,
+						"isPublic": true
+					},
+					"comment": {
+						"shortText": "The date the animal was born"
+					},
+					"sources": [
+						{
+							"fileName": "test-file.ts",
+							"line": 17,
+							"character": 26
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "Date"
+					}
+				},
+				{
+					"id": 2,
+					"name": "walk",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true,
+						"isPublic": true
+					},
+					"signatures": [
+						{
+							"id": 3,
+							"name": "walk",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Ambulates one way or another at some speed"
+							},
+							"parameters": [
+								{
+									"id": 4,
+									"name": "speed",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "The speed at which to walk in meters per second"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 5,
+									"name": "direction",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Which direction in which to walk\n"
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "stringLiteral",
+												"value": "this way"
+											},
+											{
+												"type": "stringLiteral",
+												"value": "that way"
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "test-file.ts",
+							"line": 10,
+							"character": 13
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						6
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "test-file.ts",
+					"line": 4,
+					"character": 28
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Classes",
+			"kind": 128,
+			"children": [
+				1
+			]
+		}
+	]
+}

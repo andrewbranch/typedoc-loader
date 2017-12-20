@@ -1,0 +1,36 @@
+{
+  "name": "typedoc-loader",
+  "version": "1.0.0",
+  "description": "A Webpack loader that converts TypeScript to TypeDoc JSON.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andrewbranch/typedoc-loader.git"
+  },
+  "keywords": [
+    "Webpack",
+    "loader",
+    "TypeScript",
+    "TypeDoc"
+  ],
+  "author": "Andrew Branch <andrew@wheream.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewbranch/typedoc-loader/issues"
+  },
+  "homepage": "https://github.com/andrewbranch/typedoc-loader#readme",
+  "dependencies": {
+    "@andrewbranch/typedoc": "^0.10.0",
+    "loader-utils": "^1.1.0",
+    "mock-fs": "^4.4.2",
+    "typedoc": "@andrewbranch/typedoc"
+  },
+  "devDependencies": {
+    "jest": "^22.0.1",
+    "memory-fs": "^0.4.1",
+    "webpack": "^3.10.0"
+  }
+}
