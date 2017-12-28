@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "jest": "^22.0.1",
+    "json-loader": "^0.5.7",
     "memory-fs": "^0.4.1",
     "webpack": "^3.10.0"
   }

@@ -13,10 +13,13 @@ module.exports = (fixture, options) => {
     module: {
       rules: [{
         test: /\.ts$/,
-        use: {
-          loader: path.resolve(__dirname, '../lib/loader.js'),
-          options
-        }
+        use: [
+          'json-loader',
+          {
+            loader: path.resolve(__dirname, '../lib/loader.js'),
+            options
+          }
+        ]
       }]
     }
   });
