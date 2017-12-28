@@ -25,8 +25,7 @@
   "dependencies": {
     "@andrewbranch/typedoc": "^0.10.0",
     "loader-utils": "^1.1.0",
-    "mock-fs": "^4.4.2",
-    "typedoc": "@andrewbranch/typedoc"
+    "mock-fs": "^4.4.2"
   },
   "devDependencies": {
     "jest": "^22.0.1",
