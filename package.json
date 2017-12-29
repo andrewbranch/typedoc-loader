@@ -1,6 +1,6 @@
 {
   "name": "typedoc-loader",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "A Webpack loader that converts TypeScript to TypeDoc JSON.",
   "main": "index.js",
   "scripts": {
