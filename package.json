@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "postinstall": "rimraf node_modules/typedoc/node_modules/typescript"
+    "postinstall": "rimraf node_modules/@andrewbranch/typedoc/node_modules/typescript"
   },
   "repository": {
     "type": "git",
