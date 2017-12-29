@@ -4,8 +4,7 @@
   "description": "A Webpack loader that converts TypeScript to TypeDoc JSON.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "postinstall": "rimraf node_modules/@andrewbranch/typedoc/node_modules/typescript"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -26,8 +25,7 @@
   "dependencies": {
     "@andrewbranch/typedoc": "^0.10.0",
     "loader-utils": "^1.1.0",
-    "mock-fs": "^4.4.2",
-    "rimraf": "^2.6.2"
+    "mock-fs": "^4.4.2"
   },
   "devDependencies": {
     "jest": "^22.0.1",
