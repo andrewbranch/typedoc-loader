@@ -9,5 +9,7 @@ test('writes a module exporting TypeDoc JSON', done => {
     const json = JSON.parse(output.replace(/^module.exports = /, ''));
     expect(json.children[0].name).toBe('Animal');
     done();
-  }).catch(done);
-});
+  }).catch(err => {
+    done.fail(err);
+  });
+}, 10e3);

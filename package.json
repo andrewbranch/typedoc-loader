@@ -31,9 +31,12 @@
     "jest": "^22.0.1",
     "json-loader": "^0.5.7",
     "memory-fs": "^0.4.1",
-    "webpack": "^3.10.0"
+    "webpack": "^4.17.1"
   },
   "peerDependencies": {
     "typescript": "^3.0.0"
+  },
+  "jest": {
+    "testURL": "http://localhost"
   }
 }
