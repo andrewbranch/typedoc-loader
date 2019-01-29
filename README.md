@@ -15,6 +15,7 @@ module: {
         // and `json` which is always `true`.
         // https://github.com/TypeStrong/typedoc#arguments
       }
+    }
   }]
 }
 ```
