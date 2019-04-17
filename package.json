@@ -25,10 +25,10 @@
   "dependencies": {
     "loader-utils": "^1.2.3",
     "mock-fs": "^4.8.0",
-    "typedoc": "^0.12.0"
+    "typedoc": "^0.14.2"
   },
   "devDependencies": {
-    "jest": "^22.4.4",
+    "jest": "^24.7.1",
     "json-loader": "^0.5.7",
     "memory-fs": "^0.4.1",
     "webpack": "^4.30.0"
