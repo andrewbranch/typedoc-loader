@@ -23,20 +23,21 @@
   },
   "homepage": "https://github.com/andrewbranch/typedoc-loader#readme",
   "dependencies": {
-    "loader-utils": "^1.1.0",
-    "mock-fs": "^4.4.2",
-    "typedoc": "^0.12.0"
+    "loader-utils": "^1.2.3",
+    "mock-fs": "^4.8.0",
+    "typedoc": "^0.14.2"
   },
   "devDependencies": {
-    "jest": "^22.0.1",
+    "jest": "^24.7.1",
     "json-loader": "^0.5.7",
     "memory-fs": "^0.4.1",
-    "webpack": "^4.17.1"
+    "webpack": "^4.30.0"
   },
   "peerDependencies": {
     "typescript": "^3.0.0"
   },
   "jest": {
-    "testURL": "http://localhost"
+    "testURL": "http://localhost",
+    "testEnvironment": "node"
   }
 }
