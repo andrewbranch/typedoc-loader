@@ -37,6 +37,7 @@
     "typescript": "^3.0.0"
   },
   "jest": {
-    "testURL": "http://localhost"
+    "testURL": "http://localhost",
+    "testEnvironment": "node"
   }
 }
