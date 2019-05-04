@@ -1,5 +1,7 @@
 # typedoc-loader
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/andrewbranch/typedoc-loader.svg)](https://greenkeeper.io/)
+
 A Webpack loader that converts TypeScript to [TypeDoc](http://typedoc.org) JSON.
 
 ## Usage
